@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  min-height: 50vh;
+  background: #001219;
+}
+.judul {
+  text-align: center;
+  background-color: #5cb270;
+  width: 290px;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  border-radius: 5px;
+}
+.container {
+  background-color: #5cb270;
+  width: 325px;
+  height: 450px;
+  margin: 90px auto;
+  border-radius: 10px;
+}
+
+.wrapper input[type="text"] {
+  width: 80%;
+  color: #e63946;
+  text-shadow: 2px 2px 3px white;
+  height: 50px;
+  margin: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  text-align: end;
+  font-size: 35px;
+}
+.wrapper .operator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px;
+  gap: 20px;
+  height: 45px;
+}
+.operator > input {
+  border: none;
+  outline: none;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 3px 5px;
+  font-size: 30px;
+  background: transparent;
+  color: #e63946;
+}
+.operator > input:hover {
+  background-color: aliceblue;
+}
+.container .created {
+  color: aliceblue;
+  background-color: #5cb270;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 0.9rem;
+  text-align: center;
+  transform: translateY(17px);
+}
